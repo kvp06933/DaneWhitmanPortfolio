@@ -2,11 +2,11 @@ body{
     font-family: 'Bitter', serif;
     /* font-family: 'IBM Plex Sans', sans-serif; */
 }
-main>.container {
+/* main>.container {
     padding: 60px 15px 0;
     margin-top: 5rem;
     
-}
+} */
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -16,6 +16,7 @@ main>.container {
 .navbar-brand .title{
     font-size: 5rem;
 }
+
 .title{
     font-family: 'Rokkitt', serif; 
     /* font-family: 'Merriweather', serif; */
@@ -25,8 +26,8 @@ main>.container {
     background-repeat: none;
     background-size: cover;
     background-position: fixed;
-    background-color: cornflowerblue;
-    margin-bottom: 5rem;
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgba(138, 192, 216, 1) 90%);
+    
     
 }
 

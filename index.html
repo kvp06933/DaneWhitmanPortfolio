@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather&display=swap"
         rel="stylesheet">
     <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="/css/hoverCard.css">
     <link rel="stylesheet" href="/css/style.css">
 
 
@@ -47,11 +48,11 @@
     <!--Main Content Area-->
     <main class="flex-shrink-0 mt-5">
         <!--Hero Title-->
-        <header class="container-fluid d-flex justify-content-center border border-1 border-danger header">
-            <div class="row mt-5">
-                <div class="col-12 col-sm-8 offset-sm-4">
+        <header class="container-fluid header d-flex flex-column justify-content-center">
+            <div class="row justify-content-center offset-sm-4 offset-md-2 offset-lg-3 offset-xl-2">
+                <div class="col-12 col-md-8 col-xl-6 mt-3">
                     <h1 class="display-3 title"><span>Dane</span> Whitman</h1>
-                    <h3 class="text-uppercase">Full Stack Developer</h3>
+                    <h3 class="text-uppercase">Full Stack Web Developer</h3>
                     <p>
                         I'm open for work! Please feel free to reach out to me for projects and opportunites.
                     </p>
@@ -61,10 +62,68 @@
                 </div>
             </div>
 
+
         </header>
         <!--Projects Section-->
         <section id="projects">
-
+            <div class="container">
+                <h1 class="title text-uppercase">
+                    My Projects
+                </h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="hoverCard">
+                            <a href="#" target="_blank">
+                                <div class="card">
+                                    <img src="/img/BTLogoBlue.png" alt="Bug Tracker" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Bug Tracker
+                                        </h5>
+                                        <p class="card-text">
+                                            Full Stack Project Built in ASP.net and C#
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hoverCard">
+                            <a href="#" target="_blank">
+                                <div class="card">
+                                    <img src="/img/DevBlogBlue.png" alt="Blog" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Blog
+                                        </h5>
+                                        <p class="card-text">
+                                            Full Stack Project Built in ASP.net and C#
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hoverCard">
+                            <a href="#" target="_blank">
+                                <div class="card">
+                                    <img src="/img/MoneyGrowBlue.png" alt="Financial Portal" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Financial Portal
+                                        </h5>
+                                        <p class="card-text">
+                                            Full Stack Project Built in ASP.net and C#
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
