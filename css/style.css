@@ -1,0 +1,50 @@
+body{
+    font-family: 'Bitter', serif;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+}
+main>.container {
+    padding: 60px 15px 0;
+    margin-top: 5rem;
+    
+}
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-brand .title{
+    font-size: 5rem;
+}
+.title{
+    font-family: 'Rokkitt', serif; 
+    /* font-family: 'Merriweather', serif; */
+}
+.header{
+    
+    background-repeat: none;
+    background-size: cover;
+    background-position: fixed;
+    background-color: cornflowerblue;
+    margin-bottom: 5rem;
+    
+}
+
+@media only screen and (min-width: 992px){
+    .header{
+        background-image: url('/img/DaneWhitmanLarge.png');
+        min-height: 400px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:991px) {
+    .header{
+        background-image: url('/img/DaneWhitmanSmall.png');
+        
+    }
+}
+
+
+
+
+
+   
